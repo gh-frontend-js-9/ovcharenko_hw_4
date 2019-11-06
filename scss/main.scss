@@ -262,11 +262,33 @@ h4 {
 	font-family: $main_font;
 	font-size: 82px;
 	font-weight: $bold_weight;
+	@media screen and (max-width: 393px) {
+		& {
+			font-size: 81px;
+		}
+	}
+	@media screen and (max-width: 388px) {
+		& {
+			    font-size: 65px;
+		}
+	}
 }
+
+
 
 .heading-block {
 	text-align: center;
 	padding-top: 58px;
+	@media screen and (max-width: 393px) {
+		& {
+			padding-top: 56px;
+		}
+	}
+	@media screen and (max-width: 375px) {
+		& {
+			padding-top: 45px;
+		}
+	}
 }
 
 .subtitle {
